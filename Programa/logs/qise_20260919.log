@@ -1,0 +1,162 @@
+2026-09-19 21:30:27 | INFO     | main                 | Input   : sources.yaml
+2026-09-19 21:30:27 | INFO     | main                 | Output  : data/qise_candidates.csv
+2026-09-19 21:30:27 | INFO     | main                 | Country : all
+2026-09-19 21:30:27 | INFO     | main                 | Resume  : False | dry-run: False | limit: none
+2026-09-19 21:30:27 | INFO     | pipeline             | ============================================================
+2026-09-19 21:30:27 | INFO     | pipeline             | QISE-LatAm-Scraper pipeline starting
+2026-09-19 21:30:27 | INFO     | pipeline             | ============================================================
+2026-09-19 21:30:27 | INFO     | input_loader         | Loaded 14 universities from sources.yaml
+2026-09-19 21:30:27 | ERROR    | main                 | Unexpected execution failure
+Traceback (most recent call last):
+  File "C:\Users\yomar\Downloads\Generador_URL\Programa\main.py", line 362, in main
+    pipeline = pipeline_class(
+        config_path=args.config,
+    ...<2 lines>...
+        overrides=overrides,
+    )
+  File "C:\Users\yomar\Downloads\Generador_URL\Programa\pipeline.py", line 200, in __init__
+    self.classifier = QISEClassifier(self.cfg)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: QISEClassifier() takes no arguments
+2026-09-19 21:33:43 | INFO     | main                 | Input   : sources.yaml
+2026-09-19 21:33:43 | INFO     | main                 | Output  : data/qise_candidates.csv
+2026-09-19 21:33:43 | INFO     | main                 | Country : all
+2026-09-19 21:33:43 | INFO     | main                 | Resume  : False | dry-run: False | limit: none
+2026-09-19 21:33:43 | INFO     | pipeline             | ============================================================
+2026-09-19 21:33:43 | INFO     | pipeline             | QISE-LatAm-Scraper pipeline starting
+2026-09-19 21:33:43 | INFO     | pipeline             | ============================================================
+2026-09-19 21:33:43 | INFO     | input_loader         | Loaded 14 universities from sources.yaml
+2026-09-19 21:33:43 | ERROR    | main                 | Unexpected execution failure
+Traceback (most recent call last):
+  File "C:\Users\yomar\Downloads\Generador_URL\Programa\main.py", line 370, in main
+    seeds = pipeline.discover_only(
+        country=args.country,
+        force=args.force_discover,
+        dry_run=args.dry_run,
+    )
+TypeError: Pipeline.discover_only() got an unexpected keyword argument 'dry_run'
+2026-09-19 21:36:34 | INFO     | main                 | Input   : sources.yaml
+2026-09-19 21:36:34 | INFO     | main                 | Output  : data/qise_candidates.csv
+2026-09-19 21:36:34 | INFO     | main                 | Country : all
+2026-09-19 21:36:34 | INFO     | main                 | Resume  : False | dry-run: False | limit: none
+2026-09-19 21:36:34 | INFO     | pipeline             | ============================================================
+2026-09-19 21:36:34 | INFO     | pipeline             | QISE-LatAm-Scraper pipeline starting
+2026-09-19 21:36:34 | INFO     | pipeline             | ============================================================
+2026-09-19 21:36:34 | INFO     | input_loader         | Loaded 14 universities from sources.yaml
+2026-09-19 21:36:36 | INFO     | pipeline             | Instituto Balseiro: manual seeds present (3) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Universidad de Buenos Aires - Exactas: manual seeds present (1) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Universidad de Buenos Aires - FCEN Departamento de Física: manual seeds present (1) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Universidade de São Paulo - Instituto de Física: manual seeds present (2) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Universidade Estadual de Campinas - IMECC: manual seeds present (1) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Pontificia Universidad Católica de Chile - Física: manual seeds present (2) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Universidad de Chile - Facultad de Ciencias: manual seeds present (1) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Universidad de los Andes - Física: manual seeds present (2) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | UNAM - Facultad de Ciencias: manual seeds present (2) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | CINVESTAV: manual seeds present (1) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Pontificia Universidad Católica del Perú: manual seeds present (3) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Universidad de Ingeniería y Tecnología: manual seeds present (2) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Universidad Nacional Mayor de San Marcos - Física: manual seeds present (1) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Universidad de la República - Física: manual seeds present (1) — skipping (use --force-discover to override)
+2026-09-19 21:36:36 | INFO     | pipeline             | Seed discovery complete: 0 seeds across 0 institution(s)
+2026-09-19 21:36:36 | WARNING  | main                 | Seed discovery completed without new seeds.
+2026-09-19 21:40:36 | INFO     | main                 | Input   : sources.yaml
+2026-09-19 21:40:36 | INFO     | main                 | Output  : data/qise_candidates.csv
+2026-09-19 21:40:36 | INFO     | main                 | Country : all
+2026-09-19 21:40:36 | INFO     | main                 | Resume  : False | dry-run: False | limit: none
+2026-09-19 21:40:36 | INFO     | pipeline             | ============================================================
+2026-09-19 21:40:36 | INFO     | pipeline             | QISE-LatAm-Scraper pipeline starting
+2026-09-19 21:40:36 | INFO     | pipeline             | ============================================================
+2026-09-19 21:40:36 | INFO     | input_loader         | Loaded 14 universities from sources.yaml
+2026-09-19 21:40:51 | INFO     | seed_discovery       | Seed discovery: Instituto Balseiro | homepage_links=1818 sitemap_urls=1817 candidates=1818 scored>=3: 313 → kept 20
+2026-09-19 21:40:51 | INFO     | seed_discovery       |     [ 12] https://www.ib.edu.ar/academicas/carreras-de-grado/carrera-de-grado_licfisica  (url:carrera + anchor:licenciatura + stem:fisica + sitemap)
+2026-09-19 21:40:51 | INFO     | seed_discovery       |     [ 12] https://www.ib.edu.ar/academicas/maestrias/maestria-en-ciencias-fisicas  (url:maestria + anchor:maestria + stem:ciencias + sitemap)
+2026-09-19 21:40:51 | INFO     | seed_discovery       |     [ 12] https://www.ib.edu.ar/academicas/maestrias/maestria-en-ingenieria  (url:maestria + anchor:maestria + stem:ingenieria + sitemap)
+2026-09-19 21:40:51 | INFO     | seed_discovery       |     [ 12] https://www.ib.edu.ar/academicas/maestrias/maestria_fisica-medica  (url:maestria + anchor:maestria + stem:fisica + sitemap)
+2026-09-19 21:40:51 | INFO     | seed_discovery       |     [ 12] https://www.ib.edu.ar/el-balseiro-convoca-a-inscribirse-en-maestria-en-ingenieria-orientacion-en-telecomunicaciones  (url:maestria + stem:ingenieria,telecomunicaciones + sitemap)
+2026-09-19 21:41:01 | INFO     | seed_discovery       | Seed discovery: Universidad de Buenos Aires - Exactas | homepage_links=1871 sitemap_urls=1847 candidates=1871 scored>=3: 173 → kept 20
+2026-09-19 21:41:01 | INFO     | seed_discovery       |     [ 11] https://exactas.uba.ar/ensenanza/cursos-de-posgrado  (url:cursos,posgrado + anchor:cursos,posgrado + sitemap)
+2026-09-19 21:41:01 | INFO     | seed_discovery       |     [ 10] https://exactas.uba.ar/computacion-una-carrera-con-historia  (url:carrera + stem:computacion + sitemap)
+2026-09-19 21:41:01 | INFO     | seed_discovery       |     [ 10] https://exactas.uba.ar/cursos-matematica-en-video-youtube  (url:cursos + stem:matematica + sitemap)
+2026-09-19 21:41:01 | INFO     | seed_discovery       |     [ 10] https://exactas.uba.ar/escuela-de-ciencias-informaticas-2022  (url:escuela + stem:ciencias + sitemap)
+2026-09-19 21:41:01 | INFO     | seed_discovery       |     [ 10] https://exactas.uba.ar/finalizo-la-escuela-de-ciencias-informaticas-2022  (url:escuela + stem:ciencias + sitemap)
+2026-09-19 21:41:06 | DEBUG    | seed_discovery       |   404: https://df.uba.ar/sitemap.xml
+2026-09-19 21:41:06 | INFO     | seed_discovery       | Seed discovery: Universidad de Buenos Aires - FCEN Departamento de Física | homepage_links=98 sitemap_urls=0 candidates=98 scored>=3: 22 → kept 20
+2026-09-19 21:41:06 | INFO     | seed_discovery       |     [ 11] https://df.uba.ar/es/estudiantes/doctorado/doctorado-en-fisica  (url:doctorado + anchor:doctorado + stem:fisica)
+2026-09-19 21:41:06 | INFO     | seed_discovery       |     [  9] https://df.uba.ar/es/7-novedades/8886-investigadores-del-departamento-de-fisica-participaran-de-un-proyecto-europeo-para-desarrollar-tecnologias-inspiradas-en-el-cerebro-humano  (url:departamento + stem:fisica)
+2026-09-19 21:41:06 | INFO     | seed_discovery       |     [  8] https://df.uba.ar/es/estudiantes/licenciatura/cursos-on-line  (url:cursos,licenciatura + anchor:cursos)
+2026-09-19 21:41:06 | INFO     | seed_discovery       |     [  5] https://df.uba.ar/es/98-home/7448-actividades-academicas-del-departamento  (url:departamento + anchor:departamento)
+2026-09-19 21:41:06 | INFO     | seed_discovery       |     [  5] https://df.uba.ar/es/docentes/paginas-de-materias  (url:materias + anchor:materias)
+2026-09-19 21:41:13 | INFO     | seed_discovery       | Seed discovery: Universidade de São Paulo - Instituto de Física | homepage_links=119 sitemap_urls=0 candidates=119 scored>=3: 8 → kept 8
+2026-09-19 21:41:13 | INFO     | seed_discovery       |     [ 12] http://portal.if.usp.br/piec  (anchor:graduacao,pos-graduacao,programa + stem:ciencias)
+2026-09-19 21:41:13 | INFO     | seed_discovery       |     [ 11] http://portal.if.usp.br/cg/licenciatura-em-fisica  (url:licenciatura + anchor:licenciatura + stem:fisica)
+2026-09-19 21:41:13 | INFO     | seed_discovery       |     [ 10] http://portal.if.usp.br/pg  (anchor:graduacao,pos-graduacao + stem:fisica)
+2026-09-19 21:41:13 | INFO     | seed_discovery       |     [  4] http://portal.if.usp.br/cpgi  (anchor:graduacao,pos-graduacao)
+2026-09-19 21:41:13 | INFO     | seed_discovery       |     [  4] http://portal.if.usp.br/ifusp/node/1929  (anchor:graduacao,pos-graduacao)
+2026-09-19 21:41:19 | INFO     | seed_discovery       | Seed discovery: Universidade Estadual de Campinas - IMECC | homepage_links=3032 sitemap_urls=3000 candidates=3032 scored>=3: 1423 → kept 20
+2026-09-19 21:41:19 | INFO     | seed_discovery       |     [ 21] https://www.ime.unicamp.br/graduacao/licenciatura-matematica/curriculo  (url:curriculo,graduacao,licenciatura + stem:matematica + curriculum-pattern + sitemap)
+2026-09-19 21:41:19 | INFO     | seed_discovery       |     [ 18] https://www.ime.unicamp.br/graduacao/matematica-aplicada/curriculo  (url:curriculo,graduacao + stem:matematica + curriculum-pattern + sitemap)
+2026-09-19 21:41:19 | INFO     | seed_discovery       |     [ 15] https://www.ime.unicamp.br/graduacao/licenciatura-matematica  (url:graduacao,licenciatura + anchor:licenciatura + stem:matematica + sitemap)
+2026-09-19 21:41:19 | INFO     | seed_discovery       |     [ 15] https://www.ime.unicamp.br/graduacao/matematica/curriculo1  (url:graduacao + stem:matematica + curriculum-pattern + sitemap)
+2026-09-19 21:41:19 | INFO     | seed_discovery       |     [ 13] https://www.ime.unicamp.br/graduacao/licenciatura-matematica/ingresso  (url:graduacao,licenciatura + stem:matematica + sitemap)
+2026-09-19 21:41:30 | INFO     | seed_discovery       | Seed discovery: Pontificia Universidad Católica de Chile - Física | homepage_links=822 sitemap_urls=800 candidates=822 scored>=3: 323 → kept 20
+2026-09-19 21:41:30 | INFO     | seed_discovery       |     [ 15] https://fisica.uc.cl/carreras-y-programas/pregrado/licenciatura-en-fisica  (url:licenciatura,pregrado + anchor:licenciatura + stem:fisica + sitemap)
+2026-09-19 21:41:30 | INFO     | seed_discovery       |     [ 13] https://fisica.uc.cl/2020/07/20/programa-de-presentaciones-orales-de-practica-de-licenciatura-en-fisica  (url:licenciatura,programa + stem:fisica + sitemap)
+2026-09-19 21:41:30 | INFO     | seed_discovery       |     [ 13] https://fisica.uc.cl/2023/08/11/instituto-de-fisica-uc-imparte-la-tercera-version-de-la-escuela-de-fisica-winter-school-topics-on-graviticulas-para-estudiantes-de-postgrado-de-fisica-nacionales  (url:escuela,school + stem:fisica + sitemap)
+2026-09-19 21:41:30 | INFO     | seed_discovery       |     [ 12] https://fisica.uc.cl/2016/06/08/profesores-de-ciencias-participan-en-jornada-de-actualizacion-organizada-por-la-facultad-de-fisica  (url:facultad + stem:ciencias,fisica + sitemap)
+2026-09-19 21:41:30 | INFO     | seed_discovery       |     [ 12] https://fisica.uc.cl/2026/09/11/de-la-uc-a-japon-estudiante-de-fisica-medica-participa-en-escuela-internacional-de-seguridad-nuclear-gracias-a-beca-del-oiea  (url:escuela + anchor:escuela + stem:fisica + sitemap)
+2026-09-19 21:41:33 | DEBUG    | seed_discovery       |   404: https://www.ciencias.uchile.cl/robots.txt
+2026-09-19 21:41:35 | DEBUG    | seed_discovery       |   404: https://www.ciencias.uchile.cl/sitemap.xml
+2026-09-19 21:41:35 | INFO     | seed_discovery       | Seed discovery: Universidad de Chile - Facultad de Ciencias | homepage_links=95 sitemap_urls=0 candidates=95 scored>=3: 20 → kept 20
+2026-09-19 21:41:35 | INFO     | seed_discovery       |     [ 17] https://ciencias.uchile.cl/facultad/escuelas-y-direcciones/escuelas-de-pregrado/escuela-de-ciencias/presentacion  (url:escuela,facultad,pregrado + anchor:escuela + stem:ciencias)
+2026-09-19 21:41:35 | INFO     | seed_discovery       |     [ 11] https://ciencias.uchile.cl/carreras/4961/licenciatura-en-ciencias-con-mencion-en-matematica  (url:licenciatura + stem:ciencias,matematica)
+2026-09-19 21:41:35 | INFO     | seed_discovery       |     [ 11] https://ciencias.uchile.cl/carreras/4981/licenciatura-en-ciencias-con-mencion-en-fisica  (url:licenciatura + stem:ciencias,fisica)
+2026-09-19 21:41:35 | INFO     | seed_discovery       |     [  9] https://ciencias.uchile.cl/carreras/4959/licenciatura-en-ciencias-con-mencion-en-biologia  (url:licenciatura + stem:ciencias)
+2026-09-19 21:41:35 | INFO     | seed_discovery       |     [  9] https://ciencias.uchile.cl/carreras/4962/licenciatura-en-ciencias-con-mencion-en-quimica  (url:licenciatura + stem:ciencias)
+2026-09-19 21:41:40 | DEBUG    | seed_discovery       |   404: https://fisica.uniandes.edu.co/sitemap.xml
+2026-09-19 21:41:40 | INFO     | seed_discovery       | Seed discovery: Universidad de los Andes - Física | homepage_links=44 sitemap_urls=0 candidates=44 scored>=3: 16 → kept 16
+2026-09-19 21:41:40 | INFO     | seed_discovery       |     [ 13] https://fisica.uniandes.edu.co/programas/doctorado-ciencias-fisica  (url:doctorado + anchor:doctorado + stem:ciencias,fisica)
+2026-09-19 21:41:40 | INFO     | seed_discovery       |     [ 13] https://fisica.uniandes.edu.co/programas/maestria-ciencias-fisica  (url:maestria + anchor:maestria + stem:ciencias,fisica)
+2026-09-19 21:41:40 | INFO     | seed_discovery       |     [ 13] https://fisica.uniandes.edu.co/soy-estudiante/estudiante-doctorado-en-ciencias-fisica  (url:doctorado + anchor:doctorado + stem:ciencias,fisica)
+2026-09-19 21:41:40 | INFO     | seed_discovery       |     [ 13] https://fisica.uniandes.edu.co/soy-estudiante/estudiante-maestria-en-ciencias-fisica  (url:maestria + anchor:maestria + stem:ciencias,fisica)
+2026-09-19 21:41:40 | INFO     | seed_discovery       |     [ 11] https://fisica.uniandes.edu.co/files/home/destacados/Portafolio_empresarial_Departamento_de_Fisica-Uniandes.pdf  (url:departamento + stem:fisica + pdf)
+2026-09-19 21:41:44 | DEBUG    | seed_discovery       |   404: https://www.fciencias.unam.mx/sitemap.xml
+2026-09-19 21:41:44 | INFO     | seed_discovery       | Seed discovery: UNAM - Facultad de Ciencias | homepage_links=216 sitemap_urls=0 candidates=216 scored>=3: 20 → kept 20
+2026-09-19 21:41:44 | INFO     | seed_discovery       |     [ 12] https://www.posgrado.unam.mx/programa/ciencia-e-ingenieria-de-materiales-maestria  (url:maestria,programa + stem:ingenieria)
+2026-09-19 21:41:44 | INFO     | seed_discovery       |     [ 12] https://www.posgrado.unam.mx/programa/ciencias-de-la-sostenibilidad-maestria  (url:maestria,programa + stem:ciencias)
+2026-09-19 21:41:44 | INFO     | seed_discovery       |     [  9] https://yucatan.unam.mx/facultad-de-ciencias-sisal  (url:facultad + stem:ciencias)
+2026-09-19 21:41:44 | INFO     | seed_discovery       |     [  8] https://www.fciencias.unam.mx/institucion/personal/organizacion/fisica  (anchor:departamento + stem:fisica)
+2026-09-19 21:41:44 | INFO     | seed_discovery       |     [  7] https://www.fciencias.unam.mx/vida-en-ciencias/actividades/extracurriculares/actividades-culturales  (stem:ciencias + curriculum-pattern)
+2026-09-19 21:41:50 | DEBUG    | seed_discovery       |   404: https://www.cinvestav.mx/sitemap.xml
+2026-09-19 21:41:50 | INFO     | seed_discovery       | Seed discovery: CINVESTAV | homepage_links=111 sitemap_urls=0 candidates=111 scored>=3: 5 → kept 5
+2026-09-19 21:41:50 | INFO     | seed_discovery       |     [  8] https://www.cinvestav.mx/uga-langebio/oferta-academica/convocatorias/symposium-of-the-mexican-proteomics-society  (url:oferta academica + curriculum-pattern)
+2026-09-19 21:41:50 | INFO     | seed_discovery       |     [  6] https://www.cinvestav.mx/Comunidad/Eventos/20176-aniversario-del-departamento-de-computaci243n  (url:departamento + anchor:departamento + stem:computacion + low-priority:eventos)
+2026-09-19 21:41:50 | INFO     | seed_discovery       |     [  5] https://cinvestav.mx/Portals/0/sitedocs/programa_institucional_2025-2030.pdf?ver=8hlD5D3EaHxihxqMNJ521w%3D%3D  (url:programa + pdf)
+2026-09-19 21:41:50 | INFO     | seed_discovery       |     [  5] https://www.cinvestav.mx/Portals/0/sitedocs/tmp/00176-Programa-Anual-de-Disposicion-Final-de-Bienes-Muebles-no-utiles-2025.pdf  (url:programa + pdf)
+2026-09-19 21:41:50 | INFO     | seed_discovery       |     [  5] https://www.cinvestav.mx/Portals/0/sitedocs/tmp/05288-Programa-Anual-de-Disposicion-Final-de-Bienes-Muebles-No-Utiles-2026.pdf  (url:programa + pdf)
+2026-09-19 21:42:02 | INFO     | seed_discovery       | Seed discovery: Pontificia Universidad Católica del Perú | homepage_links=1853 sitemap_urls=1788 candidates=1853 scored>=3: 480 → kept 20
+2026-09-19 21:42:02 | INFO     | seed_discovery       |     [ 13] https://educacioncontinua.pucp.edu.pe/oferta-academica?tipo%5B%5D=cursos-y-talleres&tipo%5B%5D=talleres  (url:cursos,oferta academica + anchor:cursos + curriculum-pattern)
+2026-09-19 21:42:02 | INFO     | seed_discovery       |     [ 13] https://www.pucp.edu.pe/cronologia/1933-creacion-de-la-facultad-de-ingenieria-y-la-escuela-de-pedagogia  (url:escuela,facultad + stem:ingenieria + sitemap)
+2026-09-19 21:42:02 | INFO     | seed_discovery       |     [ 12] https://www.pucp.edu.pe/carrera/ingenieria-de-las-telecomunicaciones/ad-triangle2  (url:carrera + stem:ingenieria,telecomunicaciones + sitemap)
+2026-09-19 21:42:02 | INFO     | seed_discovery       |     [ 12] https://www.pucp.edu.pe/carrera/ingenieria-de-las-telecomunicaciones/ing-telecomuniaciones-03  (url:carrera + stem:ingenieria,telecomunicaciones + sitemap)
+2026-09-19 21:42:02 | INFO     | seed_discovery       |     [ 12] https://www.pucp.edu.pe/carrera/ingenieria-de-las-telecomunicaciones/ing-telecomunicaciones  (url:carrera + stem:ingenieria,telecomunicaciones + sitemap)
+2026-09-19 21:42:07 | INFO     | seed_discovery       | Seed discovery: Universidad de Ingeniería y Tecnología | homepage_links=1981 sitemap_urls=1970 candidates=1981 scored>=3: 117 → kept 20
+2026-09-19 21:42:07 | INFO     | seed_discovery       |     [ 13] https://utec.edu.pe/blog-de-carreras/utec/ingenieria-de-la-energia-en-utec-conoce-el-plan-de-estudios-de-esta-carrera  (url:carrera,plan de estudios + stem:ingenieria + curriculum-pattern + sitemap + low-priority:blog)
+2026-09-19 21:42:07 | INFO     | seed_discovery       |     [ 11] https://utec.edu.pe/noticias/escuela-de-posgrado-utec-lanza-la-maestria-profesional-en-ingenieria-de-minas  (url:escuela,maestria,posgrado + stem:ingenieria + sitemap + low-priority:noticias)
+2026-09-19 21:42:07 | INFO     | seed_discovery       |     [ 10] https://utec.edu.pe/facultad/facultad-de-ciencias-basicas  (url:facultad + stem:ciencias + sitemap)
+2026-09-19 21:42:07 | INFO     | seed_discovery       |     [ 10] https://utec.edu.pe/facultad/facultad-de-computacion  (url:facultad + stem:computacion + sitemap)
+2026-09-19 21:42:07 | INFO     | seed_discovery       |     [ 10] https://utec.edu.pe/facultad/facultad-de-ingenieria  (url:facultad + stem:ingenieria + sitemap)
+2026-09-19 21:42:10 | DEBUG    | seed_discovery       |   404: https://fisica.unmsm.edu.pe/robots.txt
+2026-09-19 21:42:12 | DEBUG    | seed_discovery       |   404: https://fisica.unmsm.edu.pe/sitemap.xml
+2026-09-19 21:42:12 | INFO     | seed_discovery       | Seed discovery: Universidad Nacional Mayor de San Marcos - Física | homepage_links=47 sitemap_urls=0 candidates=47 scored>=3: 5 → kept 5
+2026-09-19 21:42:12 | INFO     | seed_discovery       |     [  5] https://fisica.unmsm.edu.pe/formacion-academica/posgrado  (url:posgrado + anchor:posgrado)
+2026-09-19 21:42:12 | INFO     | seed_discovery       |     [  5] https://fisica.unmsm.edu.pe/formacion-academica/pregrado  (url:pregrado + anchor:pregrado)
+2026-09-19 21:42:12 | INFO     | seed_discovery       |     [  5] https://fisica.unmsm.edu.pe/informacion-academica/posgrado  (url:posgrado + anchor:posgrado)
+2026-09-19 21:42:12 | INFO     | seed_discovery       |     [  5] https://fisica.unmsm.edu.pe/informacion-academica/pregrado  (url:pregrado + anchor:pregrado)
+2026-09-19 21:42:12 | INFO     | seed_discovery       |     [  5] https://fisica.unmsm.edu.pe/produccion-cientifica/abstract-book-international-school-on-fundamental-crystallography-seventh-mathcryst-peru-2024  (url:school + anchor:school)
+2026-09-19 21:42:23 | DEBUG    | seed_discovery       | robots.txt unreadable for https://www.fisica.edu.uy: HTTPSConnectionPool(host='www.fisica.edu.uy', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError("HTTPSConnection(host='www.fisica.edu.uy', port=443): Failed to resolve 'www.fisica.edu.uy' ([Errno 11002] getaddrinfo failed)")) (allowing)
+2026-09-19 21:42:23 | DEBUG    | seed_discovery       |   fetch failed https://www.fisica.edu.uy/: ConnectionError
+2026-09-19 21:42:25 | DEBUG    | seed_discovery       |   fetch failed https://www.fisica.edu.uy/robots.txt: ConnectionError
+2026-09-19 21:42:26 | DEBUG    | seed_discovery       |   fetch failed https://www.fisica.edu.uy/sitemap.xml: ConnectionError
+2026-09-19 21:42:26 | INFO     | seed_discovery       | Seed discovery: Universidad de la República - Física | homepage_links=0 sitemap_urls=0 candidates=0 scored>=3: 0 → kept 0
+2026-09-19 21:42:26 | INFO     | pipeline             | Discovered seeds written → data\processed\discovered_seeds.csv (214 rows)
+2026-09-19 21:42:26 | INFO     | pipeline             | Seed discovery complete: 214 seeds across 13 institution(s)

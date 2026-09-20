@@ -888,7 +888,7 @@ class Pipeline:
 
     # ── DISCOVER-ONLY MODE ──────────────────────────────────────────────────
 
-    def discover_only(self, country: Optional[str] = None, force: bool = False) -> int:
+    def discover_only(self, country: Optional[str] = None, force: bool = False, dry_run: bool = False) -> int:
         """Run seed discovery only, without crawling."""
         from seed_discovery import SeedDiscoverer
         
